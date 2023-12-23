@@ -1,6 +1,6 @@
 # 🎄 Tree with Carols 🎄
 
-![Alt text](tree!.gif)
+![Alt text](ChristmasTree.gif)
 
 <br/>
 Animating colors was referenced by </br>
