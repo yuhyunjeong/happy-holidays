@@ -1,3 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: rgb(104, 18, 85);
+}
+.tree {
+  color: #2cdd2c;
+  padding: 50px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
 .bulb {
   color: pink;
+
+  --colorA: rgb(89, 0, 255);
+  --colorB: rgb(255, 0, 93);
+
+  animation-name: changeColor;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+@keyframes changeColor {
+  from {
+    color: var(--colorA);
+  }
+  to {
+    color: var(--colorB);
+  }
 }
