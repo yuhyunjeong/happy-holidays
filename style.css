@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
-  background-color: rgb(104, 18, 85);
+  background-color: rgb(44, 27, 78);
 }
 .tree {
-  color: #2cdd2c;
+  color: #6fb26f;
   padding: 50px;
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
